@@ -7,7 +7,6 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int max = 0;
-
         ArrayList<Integer> numLine = new ArrayList<Integer>(9);
 
         for (int i = 0; i < 9; i++) {
