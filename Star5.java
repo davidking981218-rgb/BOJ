@@ -1,8 +1,7 @@
-package ch04;
 
 import java.util.Scanner;
 
-public class Star5 {
+public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -28,3 +27,4 @@ public class Star5 {
         System.out.println(F+S-T);
     }
 }
+
