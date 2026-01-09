@@ -1,0 +1,27 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class Star6 { // 제출할 땐 Main인 거 잊지 마세요!
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int hour = sc.nextInt();
+        int minute = sc.nextInt();
+
+        if(minute < 45) {
+            minute = 60 + (minute - 45);
+            hour--;
+
+            if(hour < 0) {
+                hour = 23;
+            }
+        }
+
+        else {
+            minute = minute - 45;
+        }
+
+        System.out.println(hour + " " + minute);
+    }
+}
