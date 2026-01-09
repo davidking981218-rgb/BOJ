@@ -1,8 +1,7 @@
-package ch04;
 
 import java.util.Scanner;
 
-public class Star6 { // 제출할 땐 Main인 거 잊지 마세요!
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -24,4 +23,5 @@ public class Star6 { // 제출할 땐 Main인 거 잊지 마세요!
 
         System.out.println(hour + " " + minute);
     }
+
 }
