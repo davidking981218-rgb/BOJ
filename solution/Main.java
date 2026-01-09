@@ -16,7 +16,6 @@ public class Main {
             if (numLine.get(i) > max) max = numLine.get(i);{
             }
         }
-
         System.out.println(max);
         for (int i = 0; i < 9; i++){
             if (max == numLine.get(i) ){
